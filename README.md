@@ -17,11 +17,11 @@ Features
 	•	Method-Override: Enables HTTP methods like PATCH and DELETE.
 
  Installation
-	1.	Clone the repository: git clone https://github.com/mahelika/REST-API-Quora.git
- 	2.	Navigate to the project directory: cd REST-API-Quora
-  3.	Install dependencies: npm install
-  4.	Start the server: node index.js
-  5.	The server will run on http://localhost:8080.
+1.	Clone the repository: git clone https://github.com/mahelika/REST-API-Quora.git
+2.	Navigate to the project directory: cd REST-API-Quora
+3.	Install dependencies: npm install
+4.	Start the server: node index.js
+5.	The server will run on http://localhost:8080.
 
 Folder Structure
  REST-API-Quora/
@@ -38,23 +38,23 @@ Folder Structure
 └── .gitignore       # Ignored files and folders
 
 Middleware Used
-	1.	express.urlencoded: Parses application/x-www-form-urlencoded data for handling form submissions.
-	2.	method-override: Enables HTTP verbs like PATCH and DELETE using _method query parameters.
-	3.	express.static: Serves static files from the public directory.
+ 1.	express.urlencoded: Parses application/x-www-form-urlencoded data for handling form submissions.
+ 2.	method-override: Enables HTTP verbs like PATCH and DELETE using _method query parameters.
+ 3.	express.static: Serves static files from the public directory.
 
 
 How to Interact
 
-Add a New Post
-	1.	Visit http://localhost:8080/posts/new.
-	2.	Fill out the form with your username and content, and click submit.
-	3.	The new post will appear on the main page.
+Add a New Post	
+ 1.	Visit http://localhost:8080/posts/new.
+ 2.	Fill out the form with your username and content, and click submit.
+ 3.	The new post will appear on the main page.
 
 Edit a Post
-	1.	Go to http://localhost:8080/posts.
-	2.	Click the Edit button next to the post you want to modify.
-	3.	Update the content in the form and submit.
+ 1.	Go to http://localhost:8080/posts.
+ 2.	Click the Edit button next to the post you want to modify.
+ 3.	Update the content in the form and submit.
 
 Delete a Post
-	1.	Go to http://localhost:8080/posts.
-	2.	Click the Delete button next to the post you want to remove.
+ 1.	Go to http://localhost:8080/posts.
+ 2.	Click the Delete button next to the post you want to remove.
