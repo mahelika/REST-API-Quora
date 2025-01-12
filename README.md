@@ -1,0 +1,1 @@
+A basic Quora-like project implementing CRUD functionality using RESTful APIs. Users can create, read, update, and delete posts, providing a foundation for learning API development with Node.js and Express.
